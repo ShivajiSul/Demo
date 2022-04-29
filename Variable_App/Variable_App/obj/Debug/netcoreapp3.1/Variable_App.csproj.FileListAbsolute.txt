@@ -1,0 +1,14 @@
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\bin\Debug\netcoreapp3.1\Variable_App.exe
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\bin\Debug\netcoreapp3.1\Variable_App.deps.json
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\bin\Debug\netcoreapp3.1\Variable_App.runtimeconfig.json
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\bin\Debug\netcoreapp3.1\Variable_App.runtimeconfig.dev.json
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\bin\Debug\netcoreapp3.1\Variable_App.dll
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\bin\Debug\netcoreapp3.1\Variable_App.pdb
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\obj\Debug\netcoreapp3.1\Variable_App.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\obj\Debug\netcoreapp3.1\Variable_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\obj\Debug\netcoreapp3.1\Variable_App.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\obj\Debug\netcoreapp3.1\Variable_App.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\obj\Debug\netcoreapp3.1\Variable_App.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\obj\Debug\netcoreapp3.1\Variable_App.dll
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\obj\Debug\netcoreapp3.1\Variable_App.pdb
+C:\Users\Lenovo\source\repos\Variable_App\Variable_App\obj\Debug\netcoreapp3.1\Variable_App.genruntimeconfig.cache

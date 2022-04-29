@@ -1,0 +1,54 @@
+﻿@using AjaxHelperDemo.Models
+@model AjaxHelperDemo.Models.Employee
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@using (Ajax.BeginForm("Index", new AjaxOptions()
+{
+    OnSuccess = "fnsuccess",
+    OnFailure = "fnfailure",
+    HttpMethod = "POST",
+    LoadingElementId = "loader"
+}))
+{
+    <br />
+    <br />
+    <div>
+        @Html.LabelFor(x => x.FirstName):
+        @Html.EditorFor(x => x.FirstName)<br /><br />
+
+        @Html.LabelFor(x => x.LastName):
+        @Html.EditorFor(x => x.LastName)<br /><br />
+
+        @Html.LabelFor(x => x.Email):
+        @Html.EditorFor(x => x.Email)<br /><br />
+
+        <input type="submit" value="Click Me" />
+
+
+    </div>
+}
+<div style="display:none" id="loader">
+    <h5>Content Loading..</h5>
+    <img src="~/Content/loader.gif" height="100" width="200" />
+
+</div>
+
+<div id="empList">
+    
+</div>
+<script>
+    function fnsuccess(data) {
+        console.log(data);
+       
+       $("#empList").html(data);
+        
+    }
+    function fnfailure(err) {
+        console.error(err);
+
+    }
+</script>
+

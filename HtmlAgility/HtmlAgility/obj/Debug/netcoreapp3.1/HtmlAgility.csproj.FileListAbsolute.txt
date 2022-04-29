@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\bin\Debug\netcoreapp3.1\HtmlAgility.exe
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\bin\Debug\netcoreapp3.1\HtmlAgility.deps.json
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\bin\Debug\netcoreapp3.1\HtmlAgility.runtimeconfig.json
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\bin\Debug\netcoreapp3.1\HtmlAgility.runtimeconfig.dev.json
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\bin\Debug\netcoreapp3.1\HtmlAgility.dll
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\bin\Debug\netcoreapp3.1\HtmlAgility.pdb
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\obj\Debug\netcoreapp3.1\HtmlAgility.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\obj\Debug\netcoreapp3.1\HtmlAgility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\obj\Debug\netcoreapp3.1\HtmlAgility.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\obj\Debug\netcoreapp3.1\HtmlAgility.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\obj\Debug\netcoreapp3.1\HtmlAgility.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\obj\Debug\netcoreapp3.1\HtmlAgility.dll
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\obj\Debug\netcoreapp3.1\HtmlAgility.pdb
+C:\Users\Lenovo\source\repos\HtmlAgility\HtmlAgility\obj\Debug\netcoreapp3.1\HtmlAgility.genruntimeconfig.cache

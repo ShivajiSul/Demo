@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@*State Management*@
+@*Cookie*@
+
+@*@if (Request.Cookies["User"] == null)
+    {
+        <h1>@Html.ActionLink("Please Login", "Index", "Login")</h1>
+    }
+    else
+    {
+        <h2>Welcome :@Request.Cookies["User"].Value</h2>
+    }*@
+@*Session*@
+@*@if (Session["User"] == null)
+    {
+        <h1>@Html.ActionLink("Please Login", "Index", "Login")</h1>
+    }
+    else
+    {
+        <h2>Welcome :@Session["User"]</h2>
+        <p>
+            <h1> @Html.ActionLink("Logout","Log","Login")</h1>
+        </p>
+    }*@
+
+@*Applicatin*@
+@if (HttpContext.Current.Application["User"] == null)
+{
+    <h1>@Html.ActionLink("Please Login", "Index", "Login")</h1>
+}
+else
+{
+    <h2>Welcome :@HttpContext.Current.Application["User"]</h2>
+    <p>
+        <h1> @Html.ActionLink("Logout", "Log", "Login")</h1>
+    </p>
+}
+

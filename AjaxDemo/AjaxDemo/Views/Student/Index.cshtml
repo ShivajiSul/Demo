@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<html>
+<head>
+
+</head>
+<body>
+    <table class="table table-bordered table-condensed table-hover table-striped">
+        <thead>
+            <tr>
+                <th>StdID</th> 
+
+                <th>StdName</th>
+
+                <th>StdEmail</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+           
+    </table>
+    
+    <input type="button" onclick="BtnClick()" value="ClickMe" />
+</body>
+</html>
+<script>
+    function BtnClick() {
+        $.ajax({
+            url: "/Student/GetStudent",
+            method: "GET",
+            success: function (data)
+            {
+                console.log(data);
+                var json = JSON.parse(data);
+                var tr;
+                tr = $('<tr/>');
+                tr.append("<td>" + json.StdID+ "</td>");
+                tr.append("<td>" + json.StdName + "</td>");
+                tr.append("<td>" + json.StdEmail + "</td>");
+                $('table').append(tr);
+                
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        })
+    }
+    
+</script>

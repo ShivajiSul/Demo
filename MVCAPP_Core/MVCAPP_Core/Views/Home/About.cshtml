@@ -1,0 +1,11 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<h1>@ViewBag.Myname1</h1>
+<h1>@ViewData["myname"]</h1>
+
+<h1>@TempData["myname1"]</h1>
+<h1>@HttpContextAccessor.HttpContext.Session.GetString("myname3")</h1>
