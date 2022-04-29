@@ -10,5 +10,6 @@ namespace AjaxDemo.Models
         public int StdID { get; set; }
         public string StdName { get; set; }
         public string StdEmail { get; set; }
+       //public string mobilenum { get; set; }
     }
 }
